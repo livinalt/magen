@@ -12,3 +12,26 @@ docs/
 
 # Dotenv file
 .env
+# Foundry
+cache/
+out/
+broadcast/
+
+# Dependencies
+lib/
+
+# Keys & Environment
+.env
+.env.local
+
+# Artifacts
+*.json
+!foundry.json
+!remappings.json
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
